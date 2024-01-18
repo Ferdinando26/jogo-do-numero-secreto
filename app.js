@@ -5,7 +5,7 @@
 // paragrafo.innerHTML = 'Escolha um número entre 1 e 10';
 
 let listaDeNumeroSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -48,7 +48,7 @@ function gerarNumeroAleatorio(){
     let numeroEscolhido =  parseInt(Math.random() * numeroLimite + 1);
     let quantidadeDeElementosNaLista = listaDeNumeroSorteados.length;
 
-    if (quantidadeDeElementosNaLista == 3) {
+    if (quantidadeDeElementosNaLista == 100) {
 
         listaDeNumeroSorteados = [];
     }
